@@ -87,7 +87,7 @@
 git clone https://github.com/samir2328/Nuking-Tool
 cd QubrixaToolz
 pip install -r requirements.txt
-python test.py
+python nuker.py
 ```
 
 **Dependencies:**
