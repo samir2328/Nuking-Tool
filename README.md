@@ -7,12 +7,13 @@
  ██║▄▄ ██║██║   ██║██╔══██╗██╔══██╗██║ ██╔██╗ ██╔══██║
  ╚██████╔╝╚██████╔╝██████╔╝██║  ██║██║██╔╝ ██╗██║  ██║
   ╚══▀▀═╝  ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
-              ████████╗ ██████╗  ██████╗ ██╗     ███████╗
-              ╚══██╔══╝██╔═══██╗██╔═══██╗██║     ╚════██║
-                 ██║   ██║   ██║██║   ██║██║         ██╔╝
-                 ██║   ██║   ██║██║   ██║██║        ██╔╝ 
-                 ██║   ╚██████╔╝╚██████╔╝███████╗   ███████╗
-                 ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝  ╚══════╝
+
+   ████████╗ ██████╗  ██████╗ ██╗         ███████╗
+   ╚══██╔══╝██╔═══██╗██╔═══██╗██║            ███╔╝
+      ██║   ██║   ██║██║   ██║██║           ███╔╝ 
+      ██║   ██║   ██║██║   ██║██║          ███╔╝  
+      ██║   ╚██████╔╝╚██████╔╝███████╗  ███████╗  
+      ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝  ╚══════╝  
 ```
 
 **Qubrixa Toolz** — Discord Server Nuke Tool
@@ -85,9 +86,9 @@
 
 ```bash
 git clone https://github.com/samir2328/Nuking-Tool
-cd QubrixaToolz
+cd Nuking-Tool
 pip install -r requirements.txt
-python nuker.py
+python test.py
 ```
 
 **Dependencies:**
@@ -107,7 +108,7 @@ httpx[http2]
 Enter your bot token and target guild ID on launch. Everything else is interactive.
 
 Each vector prompts for:
-- **count** — number of actions to fire (default: 55)
+- **count** — number of actions to fire (default: `55`)
 - **channel name** — name prefix for created channels/roles (default: `Nuked`)
 - **message** — custom spam content (default: `@everyone @here Nuked By Qubrixa Toolz`)
 
