@@ -84,7 +84,7 @@
 **Requirements:** Python 3.10+
 
 ```bash
-git clone https://github.com/yourusername/QubrixaToolz
+git clone https://github.com/samir2328/Nuking-Tool
 cd QubrixaToolz
 pip install -r requirements.txt
 python test.py
